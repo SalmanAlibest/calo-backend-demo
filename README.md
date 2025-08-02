@@ -1,3 +1,22 @@
-# Unified Order Orchestration Platform (UOOP)
+# 🍽️ Unified Order Orchestration Platform (UOOP)
 
-Includes 3 microservices with actual code for AWS deployment using Serverless Framework.
+A scalable microservices-based system built with Node.js and Express (MVC pattern). It efficiently manages order creation, inventory checks, and intelligent routing to kitchens, darkstores, or third-party partners.
+
+---
+
+## 🧠 High-Level Architecture
+
+![High-Level Architecture](./flow/high_level_diagram.png)
+
+---
+
+## 🔄 Application Flow Diagram
+
+![Application Flow](./flow/flow.png)
+
+---
+
+## 📦 Microservices Overview
+
+Each service follows a clean **MVC** architecture:
+
