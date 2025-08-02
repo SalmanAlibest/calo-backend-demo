@@ -1,0 +1,14 @@
+service: order-service
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-1
+  environment:
+    ORDER_EVENTS_TOPIC: ${ssm:/order/topic-arn}
+functions:
+  api:
+    handler: src/index.handler
+    events:
+      - httpApi: '*'
+plugins:
+  - serverless-esbuild
