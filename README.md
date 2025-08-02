@@ -6,13 +6,13 @@ A scalable microservices-based system built with Node.js and Express (MVC patter
 
 ## 🧠 High-Level Architecture
 
-![High-Level Architecture](./flow/high_level_diagram.png)
+![High-Level Architecture](./flows/high_level_diagram.png)
 
 ---
 
 ## 🔄 Application Flow Diagram
 
-![Application Flow](./flow/flow.png)
+![Application Flow](./flows/flow.png)
 
 ---
 
